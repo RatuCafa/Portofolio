@@ -1,7 +1,3 @@
-/* =========================================
-   1. RESET & GLOBAL STYLE
-========================================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -414,43 +410,7 @@ nav ul li a:hover {
 
 
 /* =========================================
-   8. CONTACT
-========================================= */
-
-#contact {
-    text-align: center;
-    background-color: #f8e9e5;
-}
-
-#contact > p:not(:first-child) {
-    max-width: 600px;
-    margin: 0 auto 35px;
-}
-
-#contact > div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-#contact > div p {
-    padding: 12px 18px;
-
-    background-color: white;
-    border-radius: 50px;
-
-    font-size: 0.85rem;
-}
-
-#contact a {
-    color: #9b5c6d;
-    font-weight: bold;
-}
-
-
-/* =========================================
-   9. FOOTER
+   8. FOOTER
 ========================================= */
 
 footer {
@@ -467,37 +427,7 @@ footer p {
 
 
 /* =========================================
-   10. RESPONSIVE - TABLET
-========================================= */
-
-@media (max-width: 900px) {
-
-    section {
-        padding: 80px 6%;
-    }
-
-    nav {
-        width: 88%;
-    }
-
-    nav ul {
-        gap: 18px;
-    }
-
-    #about {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    #skills > div,
-    #projects > div {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-/* =========================================
-   11. RESPONSIVE - MOBILE
+   9. RESPONSIVE
 ========================================= */
 
 @media (max-width: 650px) {
